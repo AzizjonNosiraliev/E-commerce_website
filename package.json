@@ -1,0 +1,27 @@
+{
+  "name": "e-commerce_website",
+  "version": "1.0.0",
+  "description": "Welcome to your **E-Commerce Backend Build-Along Project**! This guide will walk you through building a secure, modular backend system using **Node.js**, **Express**, **MongoDB**, and more. We're talking **real-world**, **production-level** features — so get ready to LEVEL UP 🧠🚀.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.13.2",
+    "morgan": "^1.10.0",
+    "uuid": "^11.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
